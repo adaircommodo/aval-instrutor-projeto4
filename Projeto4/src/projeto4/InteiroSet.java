@@ -36,4 +36,19 @@ public class InteiroSet {
         return r;
     }
 
+    /**
+     o método intersection, que cria um terceiro conjunto 
+     com a intersecção teórica de dois conjuntos existentes;   
+     * @param c1
+     * @param c2
+     * @return
+     */
+    public static InteiroSet interseccao(InteiroSet c1, InteiroSet c2) {
+        InteiroSet r = new InteiroSet();
+        for (int i = 0; i <= MAX; ++i) {
+            r.a[i] = c1.a[i] & c2.a[i];
+        }
+        return r;
+    }
+
 }
