@@ -84,5 +84,14 @@ public class InteiroSet {
         return sb.toString();
     }
 
+    /**
+     o método ehIgualTo que determina se dois conjuntos são iguais,   
+     * @param c1
+     * @param c2
+     * @return
+     */
+    public static boolean ehIgualTo(InteiroSet c1, InteiroSet c2) {
+        return Arrays.equals(c1.a, c2.a);
+    }
 
 }
