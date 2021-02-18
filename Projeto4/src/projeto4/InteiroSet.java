@@ -21,8 +21,7 @@ public class InteiroSet {
     }
 
     /**
-     O método 
-     union, que cria um terceiro conjunto com a união teórica 
+     O método uniao, que cria um terceiro conjunto com a união teórica 
      de dois conjuntos existentes
      * @param c1
      * @param c2
@@ -37,7 +36,7 @@ public class InteiroSet {
     }
 
     /**
-     o método intersection, que cria um terceiro conjunto 
+     o método interseccao, que cria um terceiro conjunto 
      com a intersecção teórica de dois conjuntos existentes;   
      * @param c1
      * @param c2
@@ -49,6 +48,14 @@ public class InteiroSet {
             r.a[i] = c1.a[i] & c2.a[i];
         }
         return r;
+    }
+
+    /**
+     o método insereElemento que insere um novo elemento num conjunto;
+     * @param i
+     */
+    public void insereElemento(int i) {
+        a[i] = true;
     }
 
 }
