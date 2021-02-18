@@ -67,5 +67,22 @@ public class InteiroSet {
         a[i] = false;
     }
 
+    /**
+     e o método toSetString que retorna uma string 
+     contendo os elementos do conjunto, ou um - caso a 
+     posição daquele elemento seja false.
+     * @return
+     */
+    public String toSetString() {
+        StringBuffer sb = new StringBuffer();
+        for (int i = 0; i <= MAX; ++i) {
+            if (a[i])
+                sb.append(i).append(",");
+            else
+                sb.append("-").append(",");
+        }
+        return sb.toString();
+    }
+
 
 }
