@@ -58,4 +58,14 @@ public class InteiroSet {
         a[i] = true;
     }
 
+
+    /**
+     o método deleteElemento que exclui um elemento de um conjunto;
+     * @param i
+     */
+    public void deleteElemento(int i) {
+        a[i] = false;
+    }
+
+
 }
