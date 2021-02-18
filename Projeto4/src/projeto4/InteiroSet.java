@@ -1,6 +1,7 @@
 package projeto4;
 
-import java.util.Arrays;
+import java.util.Arrays;
+
 
 public class InteiroSet {
 
@@ -11,18 +12,16 @@ public class InteiroSet {
     private boolean[] a; // [0...100]
 
    /**
-     O construtor sem argumento 
-     inicializa o array java como conjunto vazio (isto È, um 
-     conjunto cuja representaÁ„o de array contÈm todos os 
-     valores false).
+     O construtor sem argumento inicializa o array java como conjunto vazio (isto √©, um 
+     conjunto cuja representa√ß√£o de array cont√©m todos os valores false).
      */
     public InteiroSet() {
         a = new boolean[MAX + 1];
     }
 
     /**
-     O mÈtodo uniao, que cria um terceiro conjunto com a uni„o teÛrica 
-     de dois conjuntos existentes
+     O m√©todo uniao, que cria um terceiro conjunto com 
+     a uni√£o te√≥rica de dois conjuntos existentes
      * @param c1
      * @param c2
      * @return
@@ -36,8 +35,8 @@ public class InteiroSet {
     }
 
     /**
-     o mÈtodo interseccao, que cria um terceiro conjunto 
-     com a intersecÁ„o teÛrica de dois conjuntos existentes;   
+     o m√©todo interseccao, que cria um terceiro conjunto 
+     com a intersec√ß√£o te√≥rica de dois conjuntos existentes;   
      * @param c1
      * @param c2
      * @return
@@ -51,7 +50,7 @@ public class InteiroSet {
     }
 
     /**
-     o mÈtodo insereElemento que insere um novo elemento num conjunto;
+     o m√©todo insereElemento que insere um novo elemento num conjunto;
      * @param i
      */
     public void insereElemento(int i) {
@@ -60,7 +59,7 @@ public class InteiroSet {
 
 
     /**
-     o mÈtodo deleteElemento que exclui um elemento de um conjunto;
+     o m√©todo deleteElemento que exclui um elemento de um conjunto;
      * @param i
      */
     public void deleteElemento(int i) {
@@ -68,9 +67,9 @@ public class InteiroSet {
     }
 
     /**
-     e o mÈtodo toSetString que retorna uma string 
-     contendo os elementos do conjunto, ou um - caso a 
-     posiÁ„o daquele elemento seja false.
+     m√©todo toSetString que retorna uma string contendo os elementos do conjunto, 
+     ou um - caso a 
+     posi√ß√£o daquele elemento seja false.
      * @return
      */
     public String toSetString() {
@@ -85,7 +84,7 @@ public class InteiroSet {
     }
 
     /**
-     o mÈtodo ehIgualTo que determina se dois conjuntos s„o iguais,   
+     o m√©todo ehIgualTo que determina se dois conjuntos s√£o iguais,   
      * @param c1
      * @param c2
      * @return
